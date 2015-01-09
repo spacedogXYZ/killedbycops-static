@@ -1,0 +1,238 @@
+header {
+  z-index:10;
+  position:absolute;
+}
+
+#introduction {
+  background: white;
+  padding: 40px;
+  width: 75%;
+}
+#introduction p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#map {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 66%;
+  margin-bottom: 10px;
+  vertical-align: top;
+  overflow: hidden;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor:zoom-in;
+  z-index:0;
+}
+
+.svg-content-responsive {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#data {
+  /* move up and next to logo */
+  position: absolute;
+  left: 330px;
+  top: 23px;
+  z-index: 10;
+  /*text-shadow:1px 1px white;*/
+
+  pointer-events: none; /* ugly hack, but allows hover events to go through */
+}
+
+#data.contain {
+  width: 400px;
+}
+
+#data .title {
+}
+#data h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin:0;
+}
+#data h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#data h3 em {
+  color: #c00;
+}
+
+#action {
+  position: absolute;
+  left: 750px;
+  top: 23px;
+  z-index: 10;
+  /*text-shadow:1px 1px white;*/
+}
+#action a {
+  color: #3e5764;
+}
+#action h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin:0;
+}
+#action h2 span.doj {
+  display: block;
+  width: 200px;
+}
+#action h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#action h3 em {
+  color: #c00;
+}
+#share {
+  position:absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 10;
+
+}
+#tooltip {
+  background: white;
+  border:2px solid #253035;
+  padding: 10px 20px;
+}
+#tooltip img {
+  width:200px;
+  display: block;
+  margin: 10px auto 0 auto;
+}
+#tooltip span {
+  display: block;
+}
+
+#controls {
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#controls .instructions img {
+  vertical-align: middle;
+}
+
+#controls .custom-select {
+  height: 22px;
+  padding: 4px 10px;
+  font-size: 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  outline: 1px outset #253035;
+  outline-offset:-1px;
+  font-family: 'Open Sans';
+}
+#controls a {
+  display: block;
+  margin-top: 5px;
+}
+
+#explanation {
+  float: left;
+  width:65%;
+}
+
+ul#sources {
+  display:inline-block;
+  margin: 0 20px;
+  padding-left: 0px;
+  list-style-type: circle;
+}
+ul#sources li {
+  display:inline;
+  list-style-type:none;
+}
+
+#popover iframe {
+  width: 800px;
+  background: white;
+}
+
+/* Map SVG styles */
+
+.background {
+  fill: #fff;
+  pointer-events: all;
+  /*stroke: #000;*/
+
+  cursor:default;
+}
+
+.state {
+  fill: #ddd;
+  cursor:zoom-in;
+}
+.state:hover {
+  fill: #ccc;
+}
+.state.active {
+  fill: #aaa;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor:zoom-out;
+}
+
+.border {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.bubble {
+  fill: #4e4e4e;
+  fill-opacity: .5;
+  /*stroke: #fff;
+  stroke-width: .5px;*/
+  cursor: default;
+  pointer-events: none; /* default no hover */
+}
+.bubble circle.doj {
+  fill: #3e5764;
+  cursor:pointer;
+}
+.bubble circle.storify {
+  fill: #c83a10;
+  cursor:pointer;
+}
+.bubble circle.active {
+  fill-opacity: 0.5;
+  pointer-events: all; /* only in active states */
+}
+.bubble circle.inactive {
+  fill-opacity: 0.05;
+  stroke-width: 0;
+  pointer-events: none;
+}
+.bubble circle.locked {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.bubble circle:hover {
+  stroke: #1e1e1e;
+ /* fill-opacity: 1.0; */
+}
+
+.legend circle {
+  fill: none;
+  stroke: #ccc;
+}
+
+.legend text {
+  fill: #777;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}

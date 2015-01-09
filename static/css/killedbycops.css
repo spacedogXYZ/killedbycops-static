@@ -1,0 +1,154 @@
+/* Base Styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+/* End Base Styles */
+
+/* Typography Styles */
+a {
+  text-decoration: none;
+  color: #c83a10;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3e5764;
+}
+
+p {
+  margin: 0 0 13px;
+  clear:both;
+}
+
+p, a, h1, h2, h3, button {
+  text-decoration: none;
+}
+
+h1 {
+  font-size:36px;
+  line-height:32px;
+  font-weight:bold;
+  font-weight:200;
+  text-align:left;
+}
+
+h2 {
+  font-size:24px;
+  line-height:30px;
+  font-weight:bold;
+}
+
+p, ul {
+  font-size:12px;
+  line-height:18px;
+  text-align:left;
+}
+
+/* End Typography Styles */
+
+/* Form Styles */
+
+#ak-errors {
+  list-style:none;
+  color: #ff0000;
+}
+
+/* End Form Styles */
+
+/* Header Styles */
+
+header {
+  position:absolute;
+}
+
+header .logo h1 {
+  display:block;
+  margin:0 auto;
+  padding-right:20px;
+}
+
+header .logo h1 a{
+  text-decoration:none;
+  display:block;
+  height: 100%;
+  width: 275px;
+  text-transform: uppercase;
+  font-style:italic;
+  font-weight:bold;
+  color:#253035;
+  /*text-shadow: 1px 1px white;*/
+  text-indent:-9999px;
+  background-image: url('/static/images/logo.png');
+  background-position-x: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .logo h1 a:visited { color:#253035; }
+header .logo h1 a:hover {
+  color:#c83a10;
+  /*text-shadow: 1px 1px black;*/
+}
+
+header .logo h2 {
+  text-align: right;
+  margin: 0;
+  padding-right: 20px;
+  font-size: 24px;
+  line-height: 20px;
+  /*text-shadow: 1px 1px white;*/
+}
+
+/* End Header Styles */
+
+section#content {
+}
+
+section.below_map {
+  margin-top: 25px;
+}
+
+#petition {
+  width: 60%;
+  float: left;
+  clear: left;
+}
+#petition h2 {
+  margin: 0;
+}
+#petition .statement h3 {
+  margin: 0;
+}
+
+#members {
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: -25px;
+  list-style-type: none;
+}
+#members ul {
+  padding: 0 10px;
+  min-height: 120px
+}
+#members ul li {
+  font-size:20px;
+  line-height: 24px;
+  list-style-type: none;
+}
+#members ul li span {
+  display: block;
+  color: #253035;
+  text-align: right;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 20px;
+  clear:both;
+}
+/* End Footer */

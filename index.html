@@ -1,0 +1,1055 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>KilledByCops 2000-2014 | Thousands Killed. Incomplete Data. Insufficient Action.</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:site_name" content="KilledByCops.org">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.killedbycops.org">
+  <meta property="article:publisher" content="https://www.facebook.com/colorofchange">
+  <meta property="fb:admins" content="701690">
+  <meta property="fb:admins" content="5711765">
+  <meta property="fb:admins" content="744842094">
+  <meta property="fb:app_id" content="127053160685288">
+  <meta property="og:title" content="KilledByCops 2000-2014 | Thousands Killed. Incomplete Data. Insufficient Action.">
+  <meta property="og:description" content="Follow @KilledByCops. In memory of those killed by law enforcement. Let's stop killer cops and address the nationwide crisis of police violence.">
+  <meta property="og:image" content="https://s3.amazonaws.com/s3.colorofchange.org/images/killedbycops-stw.png">
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/killedbycops.css" type="text/css">
+
+  
+<link rel="stylesheet" href="/static/css/map.css" type="text/css">
+<!--<link rel="stylesheet" href="https://act.colorofchange.org/resources/actionkit.css">-->
+<link rel="stylesheet" href="/static/css/petition.css" type="text/css">
+<link rel="stylesheet" href="/static/css/custom_select.css" type="text/css">
+<link rel="stylesheet" href="/static/css/mobile.css" type="text/css">
+
+
+  <script src="//c.shpg.org/176/sp.js"></script>
+</head>
+<html>
+<body>
+  <header>
+    <div class="logo">
+      <h1><a href="http://killedbycops.org/">KilledByCops</a></h1>
+      
+<h2>2000-2014</h2>
+
+    </div>    
+  </header>
+
+  <section id="content" class="clearfix">
+      
+<div id="introduction" class="overlay">
+<h1>#KilledByCops Map</h1>
+<p><b>#KilledByCops is an interactive map that chronicles and visualizes a humanizing, detailed, but far-from-complete perspective on the massive scale of police killings nationwide.</b> And since fewer than 5% of law enforcement agencies in the country provide information on police killings, comprehensive data collection and a national conversation about police homicides in the United States is desperately needed.</p>
+<p><b>One hope for the project is that better data collection and transparency will lead to further accountability for officers who violate human and civil rights</b> &mdash; particularly of Black youth and adults &mdash; who are overwhelmingly the victims of police abuse and violence. The data for this map is crowd sourced from FatalEncounters.org, an impartial, comprehensive and searchable national database of people killed during interactions with law enforcement.</p>
+<p>The recent bill passed by Congress calling for the collection of nationwide data on police killings is a major step forward towards greater transparency, but it could take years for the data to start coming in. And, according to the data that is public, police kill Black Americans at nearly the same rate as Jim Crow Era lynchings. <b>We need widespread public pressure and engagement to ensure that the government collects this data in a way that leads to swift, real world change and police accountability &mdash; now.</b> We cannot afford to wait.</p>
+
+<p style="text-align:center;"><button href="" id="close" class="red-button">Click to continue</button></p>
+<em style="float:right;">
+    A project of ColorOfChange.org
+</em>
+</div>
+
+<section class="map_wrapper clearfix">
+  <div id="data">
+    <div class="title"></div>
+    <div class="stats"></div>
+  </div> 
+  <div id="action">
+    <div class="federal"></div>
+    <div class="local"></div>
+  </div>
+  <div id="share">
+    <div class='sp_10647 sp_fb_small' ></div>
+    <div class='sp_10646 sp_tw_small' ></div>
+    <div class='sp_10648 sp_em_small' ></div>
+  </div>
+  <div id="map"></div>
+  <div id="controls">
+    <span class="instructions">Click <img src="/static/images/zoom_in.png"> to zoom in or</span>
+    <div class="custom-select">
+      <select name="states">
+      <option value="-1">select state</option>
+      <option value="1">Alabama</option><option value="2">Alaska</option><option value="4">Arizona</option><option value="5">Arkansas</option><option value="6">California</option><option value="8">Colorado</option><option value="9">Connecticut</option><option value="10">Delaware</option><option value="11">District of Columbia</option><option value="12">Florida</option><option value="13">Georgia</option><option value="15">Hawaii</option><option value="16">Idaho</option><option value="17">Illinois</option><option value="18">Indiana</option><option value="19">Iowa</option><option value="20">Kansas</option><option value="21">Kentucky</option><option value="22">Louisiana</option><option value="23">Maine</option><option value="24">Maryland</option><option value="25">Massachusetts</option><option value="26">Michigan</option><option value="27">Minnesota</option><option value="28">Mississippi</option><option value="29">Missouri</option><option value="30">Montana</option><option value="31">Nebraska</option><option value="32">Nevada</option><option value="33">New Hampshire</option><option value="34">New Jersey</option><option value="35">New Mexico</option><option value="36">New York</option><option value="37">North Carolina</option><option value="38">North Dakota</option><option value="39">Ohio</option><option value="40">Oklahoma</option><option value="41">Oregon</option><option value="42">Pennsylvania</option><option value="44">Rhode Island</option><option value="45">South Carolina</option><option value="46">South Dakota</option><option value="47">Tennessee</option><option value="48">Texas</option><option value="49">Utah</option><option value="50">Vermont</option><option value="51">Virginia</option><option value="53">Washington</option><option value="54">West Virginia</option><option value="55">Wisconsin</option><option value="56">Wyoming</option>
+      </select>
+    </div>
+    <a href="#" id="scale">Scale by <span>population</span></a>
+  </div>
+  <div id="explanation">
+    <b>Sources:</b>
+    <ul id="sources">
+      <li><a href="http://www.fatalencounters.org" target="_blank">FatalEncounters.org</a></li>,
+      <li><a href="http://factfinder2.census.gov" target="_blank">US Census</a></li>,
+      <li><a href="http://www.justice.gov/crt/about/spl/findsettle.php" target="_blank">Department of Justice</a>
+    </ul>
+    <br>Add missing data at <a href="http://www.fatalencounters.org/google-form/" target="_blank">FatalEncounters.org</a>
+  </div>
+</section>
+
+<section class="below_map clearfix">
+  <div id="petition">
+    <h2>Enough! Take Action</h2>
+    <div class="statement">
+      <h3>National policing crisis calls for national action</h3>
+      <p>Will you join us in calling on the federal government to implement critical reforms to end abusive, militarized, and biased policing targeting Black and brown communities?</p>
+      <p><b>Sign on to <a href="http://act.colorofchange.org/sign/federalpolicingreforms/">our letter</a> we'll send on your behalf to the federal government.<br> You can add a personal comment using the box provided.</b></p>
+    </div>
+    <form class="ak-form" name="act" method="POST" action="http://act.colorofchange.org/act/" accept-charset="utf-8" style="display: block;">
+        
+          <ul class="compact" id="ak-errors"></ul>
+          
+          <div id="unknown_user">
+            
+
+            <ul class="user_form">
+              <li>
+                <label for="id_name">Name: </label>
+                <input id="id_name" type="text" name="name" placeholder="Name ">
+              </li>
+              <li>
+                <label for="id_email">Email: </label>
+                <input id="id_email" type="email" name="email" placeholder="Email *">
+              </li>     
+        
+         
+        
+              
+        <li>
+                <label for="id_zip">ZIP: </label>
+                <input id="id_zip" type="text" name="zip" size="5" placeholder="Zip *">               
+              </li>       
+        
+        
+        
+
+              <li id="country_drop_down" class="address">
+                <label for="id_country">Country: </label>
+                <select class="short" name="country" id="country">
+    <option selected="">United States</option>
+    <option>Afghanistan</option>
+    <option>Albania</option>
+    <option>Algeria</option>
+    <option>American Samoa</option>
+    <option>Andorra</option>
+    <option>Angola</option>
+    <option>Anguilla</option>
+    <option>Antarctica</option>
+    <option>Antigua and Barbuda</option>
+    <option>Argentina</option>
+    <option>Armenia</option>
+    <option>Aruba</option>
+    <option>Australia</option>
+    <option>Austria</option>
+    <option>Azerbaijan</option>
+    <option>Bahamas</option>
+    <option>Bahrain</option>
+    <option>Bangladesh</option>
+    <option>Barbados</option>
+    <option>Belarus</option>
+    <option>Belgium</option>
+    <option>Belize</option>
+    <option>Benin</option>
+    <option>Bermuda</option>
+    <option>Bhutan</option>
+    <option>Bolivia</option>
+    <option>Bosnia, Herzegovina</option>
+    <option>Botswana</option>
+    <option>Bouvet Island</option>
+    <option>Brazil</option>
+    <option>BIOT</option>
+    <option>Brunei Darussalam</option>
+    <option>Bulgaria</option>
+    <option>Burkina Faso</option>
+    <option>Burma</option>
+    <option>Burundi</option>
+    <option>Cambodia</option>
+    <option>Cameroon</option>
+    <option>Canada</option>
+    <option>Cape Verde</option>
+    <option>Cayman Islands</option>
+    <option>C. African Repub.</option>
+    <option>Chad</option>
+    <option>Chile</option>
+    <option>China</option>
+    <option>Christmas Island</option>
+    <option>Cocos Islands</option>
+    <option>Colombia</option>
+    <option>Comoros</option>
+    <option>Congo</option>
+    <option>Congo, DR</option>
+    <option>Cook Islands</option>
+    <option>Costa Rica</option>
+    <option>Cote D'Ivoire</option>
+    <option>Croatia</option>
+    <option>Cuba</option>
+    <option>Cyprus</option>
+    <option>Czech Repub.</option>
+    <option>Denmark</option>
+    <option>Djibouti</option>
+    <option>Dominica</option>
+    <option>Dominican Repub.</option>
+    <option>East Timor</option>
+    <option>Ecuador</option>
+    <option>Egypt</option>
+    <option>El Salvador</option>
+    <option>England</option>
+    <option>Equatorial Guinea</option>
+    <option>Eritrea</option>
+    <option>Espana</option>
+    <option>Estonia</option>
+    <option>Ethiopia</option>
+    <option>Falkland Islands</option>
+    <option>Faroe Islands</option>
+    <option>Fiji</option>
+    <option>Finland</option>
+    <option>France</option>
+    <option>French Guiana</option>
+    <option>French Polynesia</option>
+    <option>F.S. Territories</option>
+    <option>Gabon</option>
+    <option>Gambia</option>
+    <option>Georgia</option>
+    <option>Germany</option>
+    <option>Ghana</option>
+    <option>Gibraltar</option>
+    <option>Great Britain</option>
+    <option>Greece</option>
+    <option>Greenland</option>
+    <option>Grenada</option>
+    <option>Guadeloupe</option>
+    <option>Guam</option>
+    <option>Guatemala</option>
+    <option>Guinea</option>
+    <option>Guinea-Bissau</option>
+    <option>Guyana</option>
+    <option>Haiti</option>
+    <option>Holy See</option>
+    <option>Honduras</option>
+    <option>Hong Kong</option>
+    <option>Hungary</option>
+    <option>Iceland</option>
+    <option>India</option>
+    <option>Indonesia</option>
+    <option>Iran</option>
+    <option>Iraq</option>
+    <option>Ireland</option>
+    <option>Israel</option>
+    <option>Italy</option>
+    <option>Jamaica</option>
+    <option>Japan</option>
+    <option>Jordan</option>
+    <option>Kazakstan</option>
+    <option>Kenya</option>
+    <option>Kiribati</option>
+    <option>Korea (South)</option>
+    <option>Korea (North)</option>
+    <option>Kuwait</option>
+    <option>Kyrgyzstan</option>
+    <option>Laos</option>
+    <option>Latvia</option>
+    <option>Lebanon</option>
+    <option>Lesotho</option>
+    <option>Liberia</option>
+    <option>Libya</option>
+    <option>Liechtenstein</option>
+    <option>Lithuania</option>
+    <option>Luxembourg</option>
+    <option>Macau</option>
+    <option>Macedonia</option>
+    <option>Madagascar</option>
+    <option>Malawi</option>
+    <option>Malaysia</option>
+    <option>Maldives</option>
+    <option>Mali</option>
+    <option>Malta</option>
+    <option>Marshall Islands</option>
+    <option>Martinique</option>
+    <option>Mauritania</option>
+    <option>Mauritius</option>
+    <option>Mayotte</option>
+    <option>Mexico</option>
+    <option>Micronesia</option>
+    <option>Moldova</option>
+    <option>Monaco</option>
+    <option>Mongolia</option>
+    <option>Montserrat</option>
+    <option>Morocco</option>
+    <option>Mozambique</option>
+    <option>Myanmar</option>
+    <option>Namibia</option>
+    <option>Nauru</option>
+    <option>Nepal</option>
+    <option>Netherlands</option>
+    <option>Netherlands Antilles</option>
+    <option>New Caledonia</option>
+    <option>New Zealand</option>
+    <option>Nicaragua</option>
+    <option>Niger</option>
+    <option>Nigeria</option>
+    <option>Niue</option>
+    <option>Norfolk Island</option>
+    <option>Northern Ireland</option>
+    <option>N.Mariana Islands</option>
+    <option>Norway</option>
+    <option>Oman</option>
+    <option>Pakistan</option>
+    <option>Palau</option>
+    <option>Palestinian Territory</option>
+    <option>Panama</option>
+    <option>Papua New Guinea</option>
+    <option>Paraguay</option>
+    <option>Peru</option>
+    <option>Philippines</option>
+    <option>Pitcairn</option>
+    <option>Poland</option>
+    <option>Portugal</option>
+    <option>Puerto Rico</option>
+    <option>Qatar</option>
+    <option>Reunion</option>
+    <option>Romania</option>
+    <option>Russia</option>
+    <option>Rwanda</option>
+    <option>Saint Helena</option>
+    <option>Saint Kitts and Nevis</option>
+    <option>Saint Lucia</option>
+    <option>Saint Pierre, Miquelon</option>
+    <option>St. Vincent, Grenadines</option>
+    <option>Samoa</option>
+    <option>San Marino</option>
+    <option>Sao Tome and Principe</option>
+    <option>Saudi Arabia</option>
+    <option>Scotland</option>
+    <option>Senegal</option>
+    <option>Seychelles</option>
+    <option>Sierra Leone</option>
+    <option>Singapore</option>
+    <option>Slovakia</option>
+    <option>Slovenia</option>
+    <option>Solomon Islands</option>
+    <option>Somalia</option>
+    <option>South Africa</option>
+    <option>South Georgia</option>
+    <option>South Korea</option>
+    <option>South Sandwich Islands</option>
+    <option>Spain</option>
+    <option>Sri Lanka</option>
+    <option>Sudan</option>
+    <option>Suriname</option>
+    <option>Svalbard and Jan Mayen</option>
+    <option>Swaziland</option>
+    <option>Sweden</option>
+    <option>Switzerland</option>
+    <option>Syrian Arab Repub.</option>
+    <option>Taiwan</option>
+    <option>Tajikistan</option>
+    <option>Tanzania</option>
+    <option>Thailand</option>
+    <option>Togo</option>
+    <option>Tokelau</option>
+    <option>Tonga</option>
+    <option>Trinidad and Tobago</option>
+    <option>Tunisia</option>
+    <option>Turkey</option>
+    <option>Turkmenistan</option>
+    <option>Turks and Caicos Islands</option>
+    <option>Tuvalu</option>
+    <option>Uganda</option>
+    <option>Ukraine</option>
+    <option>United Arab Emirates</option>
+    <option>United Kingdom</option>
+    <option>Uruguay</option>
+    <option>USA</option>
+    <option>Uzbekistan</option>
+    <option>Vanuatu</option>
+    <option>Vatican City State</option>
+    <option>Venezuela</option>
+    <option>Viet Nam</option>
+    <option>Virgin Islands, British</option>
+    <option>Virgin Islands, U.S.</option>
+    <option>Wales</option>
+    <option>Wallis and Futuna</option>
+    <option>Western Sahara</option>
+    <option>Yemen</option>
+    <option>Yugoslavia</option>
+    <option>Zambia</option>
+    <option>Zimbabwe</option>
+</select>
+<br>
+                <span class="info">if in the US  <a href="#" id="yes_in_us">click here</a></span>
+              </li>
+              <li>
+                <div class="phone-fieldset">
+                  <label for="id_phone">Phone: </label>
+                  <input id="id_phone" type="tel" name="phone" placeholder="Phone">
+                </div>  
+                 
+                <div class="phone-fieldset optin-fieldset">                
+                  <input id="user_sms_opt_in" type="checkbox" name="user_sms_opt_in">
+                  <span class="mobile-optin">Receive SMS updates? †</span>
+                </div>     
+                <div class="clearfix"></div>    
+              </li>
+              
+            </ul>
+
+
+          </div>
+
+          <div id="known_user" style="display: none;">
+            Not <span id="known_user_name"></span>?  <a href="?" onclick="return actionkit.forms.logOut()">Click here.</a>
+          </div>
+
+          <label for="id_comment">Your personal comment: (optional)</label>
+          <textarea id="id_comment" name="action_comment" placeholder="Your personal comment (optional)"></textarea>
+          
+          
+
+          <input type="hidden" name="page" value="federalpolicingreforms">
+          <input type="hidden" name="source" value="map">
+          <input type="hidden" name="lists" value="1">
+          
+          
+      <input class="red-button" type="submit" value="Sign"> 
+        
+        <input type="hidden" name="form_name" value="act"><input type="hidden" name="url" value="http://act.colorofchange.org/sign/federalpolicingreforms/"><input type="hidden" name="js" value="1"><input type="hidden" name="required" value="name"><input type="hidden" name="required" value="zip">
+</form>
+
+<p class="field-note">* denotes required fields</p>
+
+<div class="disclaimer">
+   <p>YOU WILL RECEIVE PERIODIC UPDATES FROM COLOROFCHANGE.ORG. YOU MAY UNSUBSCRIBE AT ANY TIME.</p>
+   <p>† MOBILE ALERTS FROM COLOROFCHANGE. PERIODIC MESSAGES. MSG &amp; DATA RATES MAY APPLY. TEXT STOP TO 225568 TO STOP RECEIVING MESSAGES. TEXT HELP TO 225568 FOR MORE INFORMATION.  <a href="http://colorofchange.org/about/terms/">TERMS AND CONDITIONS</a></p>
+</div>
+  </div>
+
+  <div id="members">
+    <h2>Power to the People!</h2>
+    <ul id="comments"></ul>
+
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/KilledByCops" data-widget-id="519959907886305280">Tweets by @KilledByCops</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</section>
+
+<div id="popover"></div>
+
+  </section>
+
+  <footer>
+    <div class="copyright">
+        &copy; 2014 ColorOfChange.org. <a href="http://colorofchange.org/about/copyright">Some rights reserved</a>
+      </div>
+  </footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="/static/js/underscore.min.js"></script>
+<script src="/static/js/d3.js"></script>
+<script src="/static/js/topojson.v1.min.js"></script>
+<script src="/static/js/queue.v1.min.js"></script>
+<script src="/static/js/spin.min.js"></script>
+<script src="/static/js/jquery.lightbox_me.js"></script>
+
+<script src="https://act.colorofchange.org/samples/actionkit.js"></script>
+<script src="/static/js/ak_petition.js"></script>
+
+<script>
+var mapWidth = 960,
+    mapYOffset = 50,
+    mapHeight = 600 + mapYOffset,
+    dataTitle = null,
+    dataStats = null,
+    dataAction = null,
+    storyHover = null,
+    active = d3.select(null), // selected state
+    locked = d3.select(null), // selected county
+    bubbles = d3.select(null),
+    loading = null,
+    killedbycops = {};
+
+var formatNumber = d3.format(",.0f");
+var formatPercent = d3.format(".1%");
+
+// topojson is already projected, display as-is
+var path = d3.geo.path()
+    .projection(null);
+
+// radius of county bubbles is scaled on sqrt, for area comparisons
+var radius = d3.scale.sqrt()
+    .domain([0, 150]) // for total fatal encounters
+    .range([0, 30]);
+
+
+// main svg object
+var mapSvg = d3.select("#map").append("svg")
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 "+mapWidth+" "+mapHeight)
+    .classed("svg-content-responsive", true)
+    .on("click", stopped, true);
+
+// zoom behavior
+var zoom = d3.behavior.zoom()
+    .translate([0, 0])
+    .scale(1)
+    .scaleExtent([1, 8])
+    .on("zoom", zoomFunction);
+
+// background rect to allow reset
+mapSvg.append("rect")
+    .attr("class", "background")
+    .attr("width", mapWidth)
+    .attr("height", mapHeight)
+    .on("click", resetZoom);
+
+// main svg group
+var mainGroup = mapSvg.append("g")
+    .style("stroke-width", "1.5px");
+
+mapSvg
+    //.call(zoom) // allow free zooming
+    .call(zoom.event)
+    .on('mouseout', initialData);
+
+// initialize hover tips
+var tooltip = d3.select("body")
+  .append("div")
+  .attr("id", d3.functor("tooltip"))
+  .style("position", "absolute")
+  .style("z-index", "100")
+  .style("display", "none");
+
+function clickedState(d) {
+  if (active.node() === this) { return resetZoom(); }
+
+  active.classed("active", false);
+  active = d3.select(this).classed("active", true);
+
+  zoomToState(d);
+  $('select[name="states"]').val(Number(d.id));
+}
+
+function zoomToState(d) {
+  //set all bubbles inactive
+  bubbles.classed('inactive',true)
+    .classed('active',false);
+
+  //and just the ones in this state as active
+  bubbles.filter(function(c) { return c.id.substring(0,2) == d.id; })
+    .classed('inactive',false)
+    .classed('active',true);
+
+  scaleFactor = 0.9;
+  // northeastern states needs to be zoomed out a little
+  if (d.id == "36") { scaleFactor = 0.75; } //NY
+  if (d.id == "25") { scaleFactor = 0.75; } //MA
+  if (d.id == "09") { scaleFactor = 0.5; } //CT
+  if (d.id == "44") { scaleFactor = 0.3; } //RI
+  if (d.id == "11") { scaleFactor = 0.2; } //DC
+
+  //calculate zoom bounds
+  var bounds = path.bounds(d),
+      dx = bounds[1][0] - bounds[0][0],
+      dy = bounds[1][1] - bounds[0][1],
+      x = (bounds[0][0] + bounds[1][0]) / 2,
+      y = (bounds[0][1] + bounds[1][1]) / 2,
+      scale = scaleFactor / Math.max(dx / mapWidth, dy / mapHeight),
+      translate = [mapWidth / 2 - scale * x, mapHeight / 2 - scale * y];
+
+  // run the transition
+  mapSvg.transition()
+      .duration(750)
+      .call(zoom.translate(translate).scale(scale).event);
+
+  // update data display
+  updateData(d);
+
+  // scroll back to top
+  $("html, body").animate({ scrollTop: "0px" });
+
+  // update instructions
+  $('.instructions').html('Click <img src="/static/images/zoom_out.png"> to zoom out from');
+
+  // send to analytics
+  ga('send', 'event', 'state', 'zoom', d.properties.name);
+}
+
+function resetZoom() {
+  //unset all bubble states
+  bubbles.classed("inactive",false);
+  bubbles.classed("active",false);
+
+  active.classed("active", false);
+  active = d3.select(null);
+
+  mapSvg.transition()
+      .duration(1000)
+      .call(zoom.translate([0, mapYOffset]).scale(1).event);
+
+  $('.instructions').html('Click <img src="/static/images/zoom_in.png"> to zoom in or');
+
+  $('select[name="states"]').val(-1);
+  $('#data .stats').html('');
+}
+
+function zoomFunction() {
+  mainGroup.style("stroke-width", 1.5 / d3.event.scale + "px");
+  mainGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function stopped() {
+  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+}
+
+function mergeData(error, us, fatalencounters, dojFocus, stories) {
+  if (error) return console.error(error);
+
+  killedbycops = {us: {}, states:{}, counties:{}};
+
+  // rollup county numbers by race
+  killedbycops.counties = d3.nest()
+    .key(function(d) { return d.county_fips; })
+    .key(function(d) { return d.race; })
+    .rollup(function(l) { return l.length; })
+    .entries(fatalencounters.objects);
+
+  // merge with county geometry
+  var usCounties = topojson.feature(us, us.objects.counties).features;
+  killedbycops.counties = _.map(killedbycops.counties, function(county) {
+      geom = _.find(usCounties, function(g) { return g.id === county.key; } );
+      geom.properties.type = "county";
+      geom.properties.fatalencounters = {
+        race: county.values,
+        total: d3.sum(county.values, function(d) { return d.values; })
+      };
+    return geom;
+  });
+
+  // merge DOJ focus areas
+  _.each(dojFocus, function(a) {
+    var c = _.find(killedbycops.counties, function(d) {
+      return d.id === a.FIPS;
+    });
+    if (c) { c.properties.doj = {status: a["DoJ Status"], url: a['URL']}; }
+  });
+
+  // merge highlighted stories
+  _.each(stories, function(s) {
+    var c = _.find(killedbycops.counties, function(d) {
+      return d.id === s.FIPS;
+    });
+    if (c) { 
+      if (c.properties.storify === undefined) {
+        c.properties.storify = [{name: s['Name'], url: s['URL'] }];
+      } else {
+        c.properties.storify.push({name: s['Name'], url: s['URL'] });
+      }
+    }
+  });
+
+  // rollup state numbers by race, and sum
+  killedbycops.states = d3.nest()
+    .key(function(d) { return d.county_fips.substring(0,2); })
+    .key(function(d) { return d.race; })
+    .rollup(function(l) { return l.length; })
+    .entries(fatalencounters.objects);
+
+  // ugly, but we already have state FIPS lookup in view
+  var stateFIPS = { 1: 'Alabama',2: 'Alaska',4: 'Arizona',5: 'Arkansas',6: 'California',8: 'Colorado',9: 'Connecticut',10: 'Delaware',11: 'District of Columbia',12: 'Florida',13: 'Georgia',15: 'Hawaii',16: 'Idaho',17: 'Illinois',18: 'Indiana',19: 'Iowa',20: 'Kansas',21: 'Kentucky',22: 'Louisiana',23: 'Maine',24: 'Maryland',25: 'Massachusetts',26: 'Michigan',27: 'Minnesota',28: 'Mississippi',29: 'Missouri',30: 'Montana',31: 'Nebraska',32: 'Nevada',33: 'New Hampshire',34: 'New Jersey',35: 'New Mexico',36: 'New York',37: 'North Carolina',38: 'North Dakota',39: 'Ohio',40: 'Oklahoma',41: 'Oregon',42: 'Pennsylvania',44: 'Rhode Island',45: 'South Carolina',46: 'South Dakota',47: 'Tennessee',48: 'Texas',49: 'Utah',50: 'Vermont',51: 'Virginia',53: 'Washington',54: 'West Virginia',55: 'Wisconsin',56: 'Wyoming' };
+
+  // merge with state geometry
+  var usStates = topojson.feature(us, us.objects.states).features;
+  killedbycops.states = _.map(killedbycops.states, function(state) {
+      geom = _.find(usStates, function(g) { return g.id === state.key; } );
+      geom.properties.type = "state";
+      geom.properties.fatalencounters = {
+        race: state.values,
+        total: d3.sum(state.values, function(d) { return d.values; })
+      };
+      geom.properties.name = stateFIPS[Number(geom.id)];
+    return geom;
+  });
+
+  // compute state border mesh
+  killedbycops.stateBorders = topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; });
+
+  // rollup national numbers by race, and sum
+  killedbycops.us = {};
+  killedbycops.us.race = d3.nest()
+    .key(function(d) { return d.race; })
+    .rollup(function(l) { return l.length; })
+    .entries(fatalencounters.objects);
+  killedbycops.us.total = d3.sum(killedbycops.us.race, function(d) { return d.values; });
+
+  return drawMap(killedbycops);
+}
+
+function drawMap(killedbycops) {
+  // draw states
+  mainGroup.selectAll("path")
+      .data(killedbycops.states)
+    .enter().append("path")
+      .attr("d", path)
+      .attr("class", "state")
+      .on("click", clickedState); // zoom when clicked
+
+  // draw state borders
+  mainGroup.append("path")
+      .datum(killedbycops.stateBorders)
+      .attr("class", "border border--state")
+      .attr("d", path);
+
+  // draw county bubbles
+  bubbles = mainGroup.append("g")
+      .attr("class","bubble")
+    .selectAll("circle")
+      .data(killedbycops.counties
+        .sort(function(a, b) {
+          return (b.properties.fatalencounters.total - a.properties.fatalencounters.total);;
+         })
+      );
+
+  bubbles.enter().append("circle")
+      .attr("transform", function(d) {
+        return "translate(" + path.centroid(d) + ")";
+      })
+      .attr("r", function(d) {
+        return radius(d.properties.fatalencounters.total);
+      })
+      .classed("doj", function(d) { return d.properties.hasOwnProperty('doj'); })
+      .classed("storify", function(d) { return d.properties.hasOwnProperty('storify'); })
+      .on("mouseover", updateData);
+      //.on("click", lockData);
+
+  // bubbles.filter(".doj")
+  //   .on("click", showDoj);
+
+  bubbles.filter(".storify")
+    .on("mouseover", showTip)
+    .on("click", showStorify);
+
+  mapSvg.transition()
+    .duration(0)
+    .call(zoom.translate([0, mapYOffset]).scale(1).event);
+
+  loading.stop();
+  initialData();
+}
+
+function scalePopulation() {
+  radius.domain([0, 0.5]); // for fatal encounters per 1000 population
+  bubbles
+    .transition()
+    .attr("r", function(d) {
+      if (d.properties.population) {
+        return radius(d.properties.fatalencounters.total / d.properties.population * 1000);
+      } else {
+        return radius(0);
+      }
+    });
+}
+
+function scaleRaw() {
+ radius.domain([0, 200]); // for total fatal encounters
+ bubbles
+    .transition()
+    .attr("r", function(d) {
+      return radius(d.properties.fatalencounters.total);
+    });
+}
+
+function initialData() {
+  if (locked.node() !== null) {
+    return;
+  }
+
+  if (active.node() == null) {
+    // show national numbers
+    $('#data .title').html(dataTitle({
+      name: "2000-2014",
+      killedbycops: {us: formatNumber(killedbycops.us.total)}
+    }));
+  }
+ 
+  //$('#data .stats').html('');
+  $('#action .federal').html('<h2>Incomplete Federal data</h2><h2>Insufficient Federal action</h2>');
+}
+
+function updateData(d) {
+  // if locked to a different d, don't update
+  if ((locked.node() !== null) && (d.id !== locked.data()[0].id)) {
+    return;
+  }
+
+  // only show data when we are zoomed in to a state
+  if(active.node == null) {
+    return;
+  }
+
+  // format d properties and fill in data template
+  dataHtml = dataStats({
+        name: d.properties.name.split(', ')[0], // drop state from "County, State"
+        d: { total: formatNumber(d.properties.fatalencounters.total) },
+        population: formatNumber(d.properties.population) 
+  });
+
+  // active stores zoomed state
+  activeD = active.data()[0];
+  if(activeD.properties.type === "state" && d.properties.type !== 'state') {
+    dataHtml = dataStats({
+        name: activeD.properties.name.split(', ')[0],
+        d: { total: formatNumber(activeD.properties.fatalencounters.total)},
+    })+dataHtml;
+  }
+
+  if (d.properties.doj !== undefined) {
+    $('#data').addClass('contain');
+  } else {
+    $('#data').removeClass('contain');
+  }
+
+  $('#data .stats').html(dataHtml);
+  $('#action .federal').html(dataAction({doj: d.properties.doj}));
+  // send to analytics
+  ga('send', 'event', 'county', 'data', d.properties.name);
+}
+
+function lockData(d) {
+  if (locked.node() === this) {
+    d3.select(this).classed('locked',false);
+    locked = d3.select(null);
+    ga('send', 'event', 'county-lock', 'data', d.properties.name);
+    return;
+  } else {
+    bubbles.classed('locked',false);
+    locked = d3.select(this).classed('locked',true);
+    updateData(d);
+  }
+}
+
+function showTip(d) {
+  tooltip.html('');
+  _.each(d.properties.storify, function(s) {
+      var img_name = s.name.replace(' ','').replace('-','');
+      //janky d3 html append
+      tooltip.html(tooltip.html() + storyHover({
+        storify: s,
+        img_name: img_name
+      }));
+  });
+  $('#tooltip').show();
+  moveTip();
+
+  bindStorifyLink();
+  updateData(d);
+}
+function moveTip() {
+  return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");
+}
+function hideTip() {
+  return $('#tooltip').fadeOut();
+}
+function showStorify(d) {
+  if (d.properties.storify.length > 1) {
+    return false;
+  } else {
+    var url = d.properties.storify[0].url + "embed" + "?header=false";
+    $('#popover')
+      .html('<iframe src="'+url+'" width="100%" height="750" frameborder="no" allowtransparency="true"></iframe>')
+      .lightbox_me({ overlayCSS: { background: 'black', opacity: 0.75 } });
+    ga('send', 'event', 'storify', 'data', d.properties.name);
+  }
+}
+
+function bindStorifyLink() {
+  $('#tooltip a').click(function(e) {
+    e.preventDefault();
+    url = this.href + "embed" + "?header=false";
+    $('#popover')
+      .html('<iframe src="'+url+'" width="100%" height="750" frameborder="no" allowtransparency="true"></iframe>')
+      .lightbox_me({ overlayCSS: { background: 'black', opacity: 0.75 } });
+    ga('send', 'event', 'storify', 'data', $(this).id);
+  });
+
+  $('#tooltip').hover(function() {
+    $(this).show();
+  }, function() {
+    hideTip();
+  });
+}
+
+function showDoj(d) {
+  var url = d.properties.doj.url;
+  var sandbox = "";
+  if (url.substr(-3) !== 'pdf') {
+    // sandbox non-pdf urls
+    sandbox="sandbox=allow-scripts allow-same-origin";
+  }
+  $("#popover")
+    .html('<iframe src="'+url+'" width="100%" height="750" frameborder="no" '+sandbox+'></iframe>')
+    .lightbox_me({ overlayCSS: { background: 'black', opacity: 0.75 } });
+  ga('send', 'event', 'doj', 'data', d.properties.name);
+}
+
+function showComments(error, comments) {
+  _.each(comments, function(c) {
+    $('ul#comments').append(memberComment(c));
+  });
+
+  $("#comments li:first-child").addClass("first active"); // Give classes first and active to the first li
+  $("#comments li:last-child").addClass("last"); // Give class last to the last li
+  $("#comments .active").fadeIn(400);
+  cycleComments();
+  setInterval(cycleComments, 5000);
+}
+
+function cycleComments() {
+    if($("#comments .last").is(":visible")){
+        $("#comments .active").removeClass("active");
+        $("#comments .first").addClass("active");
+        $("#comments li:visible").fadeOut(400, function(){
+            $(".active").fadeIn(400);
+            });
+    } else {
+      if($("#comments .active").is(":visible")){
+          $("#comments .active").removeClass("active");
+          $("#comments li:visible").next("li").addClass("active");
+          $(".active").prev("li").fadeOut(400, function(){
+              $(".active").fadeIn(400);
+              });
+      }
+    }
+};
+
+$(document).ready(function() {
+  // show introductory overlay
+  $('#introduction.overlay').lightbox_me({
+    centered: true,
+    overlayCSS: { background: 'black', opacity: 0.75 },
+  });
+  
+  // map loading spinner
+  loading = new Spinner({zIndex: 999}).spin();
+  $('#map').append(loading.el);
+
+  // load data files asynchronously
+  queue()
+      .defer(d3.json, "/static/data/us.json")
+      .defer(d3.json, "/static/data/fatalencounters.json")
+      .defer(d3.csv, "/static/data/doj_focus.csv")
+      .defer(d3.csv, "/static/data/stories.csv")
+      .await(mergeData);
+
+  // compile data templates
+  dataTitle = _.template($('script#data-title').html());
+  dataStats = _.template($('script#data-stats').html());
+  dataAction = _.template($('script#data-action').html());
+  storyHover = _.template($('script#story-hover').html());
+  memberComment = _.template($('script#member-comment').html());
+
+  // load member comments
+  queue()
+    .defer(d3.csv, "/static/data/comments.csv")
+    .await(showComments);
+
+  // dropdown state selector
+  $('select[name="states"]').on('change', function() {
+    var val = $('select[name="states"]').val();
+    if (val !== "-1") {
+        active.classed("active", false);
+        var state = mainGroup.selectAll("path").filter(function(d) { return Number(d.id) == val; });
+        active = d3.select(state.node()).classed("active", true);
+        $('select[name="states"] option[val="-1"]').text('select one');
+        zoomToState(state.data()[0]);
+    } else {
+      $('select[name="states"] option[val="-1"]').text('National');
+      resetZoom();
+    }
+  });
+
+  // share event tracking
+  $('.sp_fb_small').on('click', function() {
+    ga('send', 'social', {
+      'socialNetwork': 'facebook',
+      'socialAction': 'share',
+      'socialTarget': 'http://www.killedbycops.org'
+    });
+  });
+  $('.sp_tw_small').on('click', function() {
+    ga('send', 'social', {
+      'socialNetwork': 'twitter',
+      'socialAction': 'share',
+      'socialTarget': 'http://www.killedbycops.org'
+    });
+  });
+
+  // toggle scale button
+  $('a#scale').toggle(function() {
+    scalePopulation();
+    $('a#scale span').text('total');
+  }, function() {
+    scaleRaw();
+    $('a#scale span').text('population');
+  });
+
+  $('#introduction button#close').click(function() {
+    $('#introduction').trigger('close');
+  });
+
+  actionkit.forms.contextRoot = 'http://act.colorofchange.org/context/';
+  actionkit.forms.initForm('act');
+});
+
+</script>
+
+
+<script type = "text/template" id="data-title">
+<h2><%= killedbycops.us %>+ police killings nationwide</h2>
+</script>
+
+<script type = "text/template" id="data-stats">
+<h2><%= d.total %> reported in  <%= name %></h2>
+<!--<% if (typeof(population) != "undefined" && population != "NaN" ) { %> <h2>population <%= population %></h2> <% } %>-->
+</script>
+
+<script type = "text/template" id="data-action">
+<% if (typeof(doj) != "undefined") { %>
+  <h2>Incomplete Federal data</h2>
+  <h2>Federal action <span class="doj"><a href="<%= doj.url %>" target="_blank"><%= doj.status %></a></span></h2>
+<% } else { %>
+  <h2>Incomplete Federal data</h2>
+  <h2>Insufficient Federal action</h2>
+<% } %>
+</script>
+
+<script type= "text/template" id="story-hover">
+  <a href="<%= storify.url %>" id="<%= img_name %>"><img src="/static/images/stories/<%= img_name %>.png">
+  <span>Click for the story of <%= storify.name %></span></a>
+</script>
+
+<script type="text/template" id="member-comment">
+<li><b><%- comment %></b> <span>&ndash; <%= first_name %> <%= last_name[0].toUpperCase() %> in <%= city %> <%= state %></span></li>
+</script>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54189940-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
